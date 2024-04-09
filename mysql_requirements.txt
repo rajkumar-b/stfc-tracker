@@ -1,0 +1,19 @@
+create database stfc;
+create table stfc.player_data (
+player			VARCHAR(100) not null primary key,
+server_no		int not null,
+alliance		VARCHAR(6),
+ops				int not null,
+mission_count	int not null,
+qs_assessment	int not null,
+alliance_help	int not null,
+rss_raided		int not null,
+rss_mined		int not null,
+curr_power		int not null,
+power_destroyed	int not null,
+pvp_wins		int not null,
+pvp_damage_done	int not null,
+pve_wins		int not null,
+pve_damage_done	int not null,
+kdr				float not null
+);
