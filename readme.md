@@ -1,7 +1,7 @@
 ## STFC Activity Tracker
 
 ### Project Requirements
-1. Install Python + PIP and any suitable IDE (PyCharm or VisualBasic).
+1. Install Python + PIP and any suitable IDE (PyCharm or VisualStudio).
 2. Install an interpreter (Conda or Venv).
 3. Install docker desktop (For local MySQL). Ignore if you have other means to connect to an external MySQL DB.
 
